@@ -90,9 +90,11 @@ html,body{
     justify-content: space-between;
     align-items: center;
     font-size: 20px;
+    font-weight:500px;
 }
 #right-top h5{
     font-size: 12px;
+    font-weight:500px;
 }
 #right img{
     width: 100%;
