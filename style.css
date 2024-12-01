@@ -131,7 +131,7 @@ html,body{
         flex-direction: column;
         padding-top: 30px;
         padding-left: 40px;
-        gap: 70px;
+        gap:70px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     #left{
@@ -148,17 +148,19 @@ html,body{
         font-weight: 500;
         line-height: 18vw;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-bottom: 20px;
+       
         
     }
     #left-bottom{
-        
+        height: fit-content;
         width: 100%;
         
     }
     #color{
         
         width: fit-content;
-        padding: 3px 5px;
+        padding: 2px 5px;
         display: flex;
         align-items: center;
         border: 1.5px solid black;
@@ -234,8 +236,8 @@ html,body{
         width: 60px;
         border-radius: 50%;
         position: absolute;
-        top: 30%;
-        right: -15%;
+        top: 40%;
+        right: -11%;
     }
     #black-circle h5{
         font-size: 10px;
@@ -243,10 +245,11 @@ html,body{
     #rotated{
         position: absolute;
         left: 0;
+        top: -1%;
         bottom: 0;
-        rotate: -90deg;
+        rotate: 0deg;
         transform-origin: 0 0;
-        left: -15%;
+        /* right: -20%; */
         font-size: 20px;
         margin-bottom: 40px;
     }
